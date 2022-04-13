@@ -1,0 +1,26 @@
+{
+    "HeadTitle" : "Zamir Blog - ",
+    "BlogName" : "Zamir's",
+    "Bio" : {
+        "details" : "Hi, my name is Anthony Doe. Briefly introduce yourself here. You can also provide a link to the about page.",
+        "link" : {
+            "href": "about.html",
+            "text" : "Find out more about me"
+        }
+    },
+    "SocialMedia": {
+        "twitter" : "twitter",
+        "linkedin" : "linkedin",
+        "github" : "github",
+        "stack" : "stack",
+        "codepen" : "codepen"
+    },
+    "GetInTouch" : {
+        "link" : {
+            "href": "miladzamir.ir",
+            "text" : "Get In Touch"
+        }
+    },
+    "Heading" : "Share knowledge with each other",
+    "Intro" : ""
+}
