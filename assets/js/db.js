@@ -30,5 +30,7 @@ readTextFile("../../db/configs.json", function(text){
 
     $(".heading").prepend(data.HeadTitle);
     $(".heading").append(data.Heading);
+
+    $(".copyright").html(data.Copyright)
     
 });

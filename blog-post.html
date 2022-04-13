@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>DevBlog - Bootstrap 5 Blog Template For Developers</title>
+    <title class="head-title">single post</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -26,7 +26,7 @@
 <body>
     
     <header class="header text-center">	    
-	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Anthony's Blog</a></h1>
+	    <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html"> Blog</a></h1>
         
 	    <nav class="navbar navbar-expand-lg navbar-dark" >
            
@@ -38,13 +38,13 @@
 				<div class="profile-section pt-3 pt-lg-0">
 				    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >			
 					
-					<div class="bio mb-3">Hi, my name is Anthony Doe. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<div class="bio mb-3"><br><a href="" class="bio-link"></a></div><!--//bio-->
 					<ul class="social-list list-inline py-3 mx-auto">
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a class="twitter" href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a class="linkedin" href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a class="github" href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a class="stack" href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a class="codepen" href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
 			        </ul><!--//social-list-->
 			        <hr> 
 				</div><!--//profile-section-->
@@ -62,9 +62,7 @@
 				</ul>
 				
 				<div class="my-2 my-md-3">
-					
-				    <a class="btn btn-primary" href="https://themes.3rdwavemedia.com/" target="_blank">Get in Touch</a>
-				    
+				    <a class="btn btn-primary get-in-touch" href="" target="_blank"></a>
 				</div>
 			</div>
 		</nav>
@@ -244,7 +242,8 @@ export  $initHighlight;
 
         
        
-    <!-- Javascript -->          
+    <!-- Javascript -->          	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
     <script src="assets/plugins/popper.min.js"></script> 
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
     
@@ -253,6 +252,8 @@ export  $initHighlight;
 
     <!-- Custom JS -->
     <script src="assets/js/blog.js"></script> 
+
+    <script src="assets/js/db.js"></script> 
     
 
 </body>
