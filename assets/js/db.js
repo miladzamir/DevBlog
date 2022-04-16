@@ -11,26 +11,26 @@ function readTextFile(file, callback) {
 }
 
 readTextFile("../../db/configs.json", function(text){
-    var data = JSON.parse(text);
-    $(".head-title").prepend(data.HeadTitle);
-    $(".blog-name").prepend(data.BlogName);
+    // var data = JSON.parse(text);
+    // $(".head-title").prepend(data.HeadTitle);
+    // $(".blog-name").prepend(data.BlogName);
     
-    $(".bio").prepend(data.Bio.details)
-    $(".bio-link").html(data.Bio.link.text)
-    $(".bio-link").attr("href", data.Bio.link.href)
+    // $(".bio").prepend(data.Bio.details)
+    // $(".bio-link").html(data.Bio.link.text)
+    // $(".bio-link").attr("href", data.Bio.link.href)
 
-    $(".twitter").attr("href", data.SocialMedia.twitter)
-    $(".linkedin").attr("href", data.SocialMedia.linkedin)
-    $(".github").attr("href", data.SocialMedia.github)
-    $(".stack").attr("href", data.SocialMedia.stack)
-    $(".codepen").attr("href", data.SocialMedia.codepen)
+    // $(".twitter").attr("href", data.SocialMedia.twitter)
+    // $(".linkedin").attr("href", data.SocialMedia.linkedin)
+    // $(".github").attr("href", data.SocialMedia.github)
+    // $(".stack").attr("href", data.SocialMedia.stack)
+    // $(".codepen").attr("href", data.SocialMedia.codepen)
 
-    $(".get-in-touch").html(data.GetInTouch.link.text)
-    $(".get-in-touch").attr("href", data.GetInTouch.link.href)
+    // $(".get-in-touch").html(data.GetInTouch.link.text)
+    // $(".get-in-touch").attr("href", data.GetInTouch.link.href)
 
-    $(".heading").prepend(data.HeadTitle);
-    $(".heading").append(data.Heading);
+    // $(".heading").prepend(data.HeadTitle);
+    // $(".heading").append(data.Heading);
 
-    $(".copyright").html(data.Copyright)
+    // $(".copyright").html(data.Copyright)
     
 });
